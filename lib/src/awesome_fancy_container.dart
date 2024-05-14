@@ -1,8 +1,8 @@
 import 'package:awesome_fancy_container/src/utils/awesome_fancy_container_typedef.dart';
 import 'package:flutter/material.dart';
 
-class FancyContainer extends StatefulWidget {
-  const FancyContainer({
+class AwesomeFancyContainer extends StatefulWidget {
+  const AwesomeFancyContainer({
     Key? key,
     this.height = 120.0,
     this.width,
@@ -26,16 +26,16 @@ class FancyContainer extends StatefulWidget {
   final Color? textColor;
   final String? subtitle;
   final Color? subtitleColor;
-  final FancyContainersCallback? onTap;
+  final AwesomeFancyContainerCallback? onTap;
   final EdgeInsetsGeometry? padding;
   final TextStyle? titleStyle;
   final TextStyle? subtitleStyle;
 
   @override
-  _FancyContainerState createState() => _FancyContainerState();
+  _AwesomeFancyContainerState createState() => _AwesomeFancyContainerState();
 }
 
-class _FancyContainerState extends State<FancyContainer> {
+class _AwesomeFancyContainerState extends State<AwesomeFancyContainer> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(

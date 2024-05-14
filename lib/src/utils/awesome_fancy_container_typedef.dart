@@ -1,1 +1,1 @@
-typedef FancyContainersCallback = Function();
+typedef AwesomeFancyContainerCallback = Function();
