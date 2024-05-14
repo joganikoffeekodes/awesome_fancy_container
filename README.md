@@ -8,7 +8,7 @@ Fancy container package lets you add a beautiful gradient container to your Flut
 1. Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
 ```yaml
 dependencies:
-  fancy_containers: ^0.0.1
+  awesome_fancy_container: ^0.0.1
 ```
 2. Import the package and use it in your Flutter App.
 ```dart
